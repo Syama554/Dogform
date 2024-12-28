@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <header>
+        <h1>DogPhotoApp</h1>
+    </header>
+    
+    <section>
+        <h2>DogPhotos</h2>
+        <p>Everyone loves <a href = "https://th.bing.com/th/id/OIP.Tbl2uFeNce50cQ5IrQHcNQHaFj?w=235&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">cute dogs</a> online!</p>
+        <p>See more <a href = "https://www.pexels.com/search/dog/">dog photos</a> in our gallery.</p>
+        <img src = "https://img.etimg.com/thumb/98548098/98548098.jpg?height=746&width=420&resizemode=76&imgsize=43816" width="300" height="200" alt="Cat Image">
+    </section>
+
+    <h2>Dog Lists</h2>
+    <section>
+      <h3>Things dogs love:</h2>
+      <ul>
+        <li>strong smell</li>
+        <li>learning new things</li>
+        <li>grains</li>
+      </ul>
+      <figure>
+        <img src = "https://www.medivetgroup.com/globalassets/assets/shutterstock-and-istock/dog-eating-out-of-bowl.jpg?width=585" width="300" height="200">
+        <figcaption>Dog love Grains</figcaption> 
+      </figure>
+    </section>
+    <section>
+        <h3>Things dogs hate:</h3>
+        <ol>
+            <li>Loud noises</li>
+            <li>Teasing</li>
+            <li>other dogs</li>
+        </ol>
+        <figure>
+            <img src = "https://www.pawsupdogs.com/wp-content/uploads/2020/01/reactive.jpg "width="300" height="200">
+            <figcaption>Dog hates other Dogs</figcaption> 
+        </figure>
+    </section>
+    <h2>Dog Form</h2>
+    
+        <form>
+            <fieldset> 
+                <legend>Is your dog an indoor or outdoor dog?</legend> 
+                <input type="radio" id="indoor" name="dog_type" value="indoor"> 
+                <label for="indoor">Indoor</label> 
+                <input type="radio" id="outdoor" name="dog_type" value="outdoor"> 
+                <label for="outdoor">Outdoor</label>
+            </fieldset>
+            <fieldset> 
+                <legend>What's your Dogs personality?</legend> 
+                <input type="checkbox" id="loving" name="dog_personality" value="loving"> 
+                <label for="loving">Loving</label> 
+                <input type="checkbox" id="lazy" name="dog_personality" value="lazy"> 
+                <label for="lazy">Lazy</label> 
+                <input type="checkbox" id="energetic" name="Dog's personality" value="energetic"> 
+                <label for="energetic">Energetic</label> 
+            </fieldset>
+            <input type="text" placeholder="Dog photo URL" name="dog_photo_url">
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
